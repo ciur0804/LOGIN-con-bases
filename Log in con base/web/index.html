@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+	<head>
+	<style>
+            /*Estilo*/
+		body{
+			
+			background: -moz-linear-gradient(-45deg, #5b9bd5 0%, #7030a0 50%, #ff4123 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(-45deg, #5b9bd5 0%,#7030a0 50%,#ff4123 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(135deg, #5b9bd5 0%,#7030a0 50%,#ff4123 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			
+		}
+		
+		.cool{
+			margin: 0 auto;
+			width: 70%;
+			border: solid 0.5px;
+		}
+		
+		.cool p{
+			font-weight: bold;			
+		}
+	</style>
+        <!--Conexión con css de bootstrap-->
+	<link rel="stylesheet" href="bootstrap.css">
+	
+	</head>
+	<body>
+            <form method="GET" action="ValidaUsuario">
+		<div class="cool container">
+			<p>Bienvenido</p>
+                        <input type="text" placeholder="Usuario" name="usuario" id="usuario" required>
+                        <input type="text" placeholder="Password" name="password" id="password" required>
+			<button type="submit" class="btn btn-secondary" name="verificar">Danger</button> 
+		</div>
+            </form>
+	</body>
+</html>
+
